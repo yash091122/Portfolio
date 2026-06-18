@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Sethi - Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+<body>
+
+    <!-- Navbar removed as requested -->
+
+    <!-- IMPORTANT: Add data-scroll-container -->
+    <div id="main" data-scroll-container>
+
+        <div id="page">
+            <div id="loop">
+                <h1><b>DIGITAL</b> CREATOR <b><i>&</i></b> <span>DEVELOPER</span> IN THE <span><i>METAVERSE.</i></span></h1>
+                <h1><b>DIGITAL</b> CREATOR <b><i>&</i></b> <span>DEVELOPER</span> IN THE <span><i>METAVERSE.</i></span></h1>
+                <h1><b>DIGITAL</b> CREATOR <b><i>&</i></b> <span>DEVELOPER</span> IN THE <span><i>METAVERSE.</i></span></h1>
+            </div>
+            <h3>HI, I'M YASH SETHI. WELCOME TO MY DIGITAL PORTFOLIO SHOWCASING <br> CREATIVE PROJECTS AND TECHNICAL SKILLS <br> IN THE VIRTUAL WORLD.</h3>
+            <h4>...SCROLL TO EXPLORE</h4>
+            <canvas></canvas>
+        </div>
+
+        <div id="page1">
+            <div id="right-text">
+                <h3>  ABOUT ME</h3>
+                <h1>CREATIVE <br> DEVELOPER <br> DESIGN THINKER</h1>
+            </div>
+            <div id="left-text">
+                <h1>INNOVATIVE <br> PROBLEM SOLVER</h1>
+                <h3>..WITH A PASSION FOR TECHNOLOGY</h3>
+            </div>
+        </div>
+
+        <div id="page2">
+            <div id="text1">
+                <h3>MY SKILLS </h3>
+                <h1>TECHNICAL <br> SKILLS <br> & TOOLS</h1>
+                <div id="skills-grid">
+                    <div class="skill-item">
+                        <h4>Frontend</h4>
+                        <p>React, Vue, Next.js</p>
+                    </div>
+                    <div class="skill-item">
+                        <h4>Backend</h4>
+                        <p>Node.js, Python, API</p>
+                    </div>
+                    <div class="skill-item">
+                        <h4>Database</h4>
+                        <p>MongoDB, PostgreSQL</p>
+                    </div>
+                    <div class="skill-item">
+                        <h4>Design</h4>
+                        <p>Figma, UI/UX, CSS</p>
+                    </div>
+                    <div class="skill-item">
+                        <h4>DevOps</h4>
+                        <p>Docker, AWS, CI/CD</p>
+                    </div>
+                    <div class="skill-item">
+                        <h4>Tools</h4>
+                        <p>Git, VS Code, Agile</p>
+                    </div>
+                </div>
+            </div>
+            <div id="text2">
+                <p>PROFICIENT IN MODERN WEB TECHNOLOGIES <br>INCLUDING HTML, CSS, JAVASCRIPT,<br>
+                REACT, NODE.JS, AND DATABASE MANAGEMENT. EXPERIENCED WITH CLOUD<br>
+                PLATFORMS, VERSION CONTROL, AND AGILE METHODOLOGIES.</p>
+            </div>
+        </div>
+
+        <div id="page3">
+            <div id="text3">
+                <h3>FEATURED WORK / PROJECTS</h3>
+
+                <div id="projects-content">
+
+                    <div id="projects-text">
+                        <h1> <br> PROJECTS </h1>
+                    </div>
+
+                    <!-- PROJECTS CONTAINER -->
+                    <div id="project-container">
+
+                        <div class="project-card" onclick="window.open('#','_blank')">
+                            <div class="project-header">
+                                <h3>AI & WEB</h3>
+                                <h2>HISTORI.AI</h2>
+                            </div>
+                            <p>An AI-powered platform bridging historical monuments and modern tech through 3D experiences.</p>
+                            <a class="project-link" href="#" 
+                                target="_blank" onclick="event.stopPropagation()">VIEW PROJECT</a>
+                        </div>
+
+                        <div class="project-card" onclick="window.open('#','_blank')">
+                            <div class="project-header">
+                                <h3>E-COMMERCE</h3>
+                                <h2>SAREE WEBSITE</h2>
+                            </div>
+                            <p>A high-end e-commerce platform for traditional Indian wear with premium aesthetics.</p>
+                            <a class="project-link" href="#"
+                                target="_blank" onclick="event.stopPropagation()">VIEW PROJECT</a>
+                        </div>
+
+                        <div class="project-card" onclick="window.open('#','_blank')">
+                            <div class="project-header">
+                                <h3>WEB APPLICATION</h3>
+                                <h2>XURVA</h2>
+                            </div>
+                            <p>A luxury Next.js e-commerce storefront tailored for high-end fashion and lifestyle products.</p>
+                            <a class="project-link" href="#"
+                                target="_blank" onclick="event.stopPropagation()">VIEW PROJECT</a>
+                        </div>
+
+                        <div class="project-card" onclick="window.open('#','_blank')">
+                            <div class="project-header">
+                                <h3>MEDIA & AUDIO</h3>
+                                <h2>CASTLY</h2>
+                            </div>
+                            <p>A real-time streaming platform for watching movies and TV shows with friends.</p>
+                            <a class="project-link" href="#"
+                                target="_blank" onclick="event.stopPropagation()">VIEW PROJECT</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="portfolio.js"></script>
+
+</body>
+</html>
